@@ -13,7 +13,6 @@ def configuration(parent_package='',top_path=None):
     return config
 
 def main():
-    print "YOO"
     from numpy.distutils.core import setup
     setup(name='fastdm',
           version='0.1',
