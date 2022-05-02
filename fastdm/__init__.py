@@ -7,7 +7,6 @@ from collections import OrderedDict
 import multiprocessing as mp
 
 def run_fast_dm(config_file):
-    print "Running fast-dm on %s" % config_file
     p = subprocess.Popen(["fast-dm", config_file], stdout=subprocess.PIPE, stderr=subprocess.STDOUT, bufsize=1)
     #p = subprocess.Popen(["fast-dm", self._gen_fn('config', sid)], )
 
